@@ -1,4 +1,4 @@
-# **Automated Playwright Login Test with Azure Timer Trigger Function**
+# **Automated Playwright Login Test for Synthetic Monitoring and availability tracking**
 
 ## Overview
 
