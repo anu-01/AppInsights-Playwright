@@ -113,6 +113,12 @@ APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
   
   <img width="949" alt="image" src="https://github.com/user-attachments/assets/d041660c-497f-4780-aa7d-afc424e9fa28" />
 
+- Create Alerts in Application Insights
+
+    - Navigate to **Alerts** → **New Alert Rule**
+    - Set condition: availabilityResults/availabilityPercentage < 100
+    - Notify via Email/Teams    
+
 
 ## Why This Solution is Needed?
 
