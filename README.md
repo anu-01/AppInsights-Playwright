@@ -58,6 +58,7 @@ Initialize an Azure Function project if not already done:
 </li> 
 <li> 
  Create a Timer Trigger Function
+  
 ``
 func new --name timerTrigger1 --template "Timer trigger" --language JavaScript
   ``
