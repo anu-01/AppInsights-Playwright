@@ -76,6 +76,17 @@ Clone the repository
 
 ``func azure functionapp publish <function-app-name>``
 </li>
+
+<li>
+ Set APPLICATIONINSIGHTS_CONNECTION_STRING is Azure portal for Function App <br/>
+ Go to Azure Portal → Application Insights and copy the Instrumentation Key / Connection String. <br/>
+ Go to Azure Portal → Function App -> Settings -> Environment Variables and set it there <br/>
+
+ ``
+APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
+``
+
+</li>
 </ol>
 
 ## Monitoring Test Results in Application Insights
