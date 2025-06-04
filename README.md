@@ -51,30 +51,7 @@ Clone the repository
   ``npm install``
 </li>
 
-<li>  Set up Azure Function Project
 
-Initialize an Azure Function project if not already done:
-``func init``
-</li> 
-<li> 
- Create a Timer Trigger Function
-  
-``
-func new --name timerTrigger1 --template "Timer trigger" --language JavaScript
-  ``
-</li> 
-  <li> 
- Configure Application Insights
-
-Go to Azure Portal → Application Insights.
-
-Copy the Instrumentation Key / Connection String.
-
-Create a .env file in the root of the project and add:
-``
-APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
-``
-</li> 
   <li> 
   Run the Function Locally
     
