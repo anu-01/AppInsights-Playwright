@@ -93,7 +93,7 @@ APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
 
 - Go to Azure Portal → Application Insights.
 
-- Navigate to "Availability".
+- Navigate to "Investigate" --> "Availability".
 
 - Click "Custom Availability Tests".
 
