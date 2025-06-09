@@ -9,7 +9,7 @@ app.timer('timerTrigger1', {
             await runPlaywrightTests(context);
             context.log("Playwright test executed successfully!");
         } catch (error) {
-            context.log.error("Error executing Playwright test:", error);
+            context.log("Error executing Playwright test:", error);
         } finally {
             context.log("Timer function processed request.");
         }
