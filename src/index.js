@@ -55,7 +55,7 @@ async function runPlaywrightTests(context) {
         context.log("✅ Playwright login test successful.");
         await browser.close();
     } catch (error) {
-        context.log.error("❌ Playwright login test failed:", error);
+        context.log("❌ Playwright login test failed:", error);
 
         // Log Failure to Application Insights
         client.trackAvailability({
