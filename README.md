@@ -70,21 +70,27 @@ Clone the repository
  Create an Azure Function App Premium EP1 Plan
 
 </li>
-<li>
- Deploy the function
 
-``func azure functionapp publish <function-app-name>``
+
+<li>
+ Set App settings for Function App in Azure portal <br/>  
+ 
+ ``
+APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
+PLAYWRIGHT_BROWSERS_PATH=0 
+``
+
 </li>
 
 <li>
- Set APPLICATIONINSIGHTS_CONNECTION_STRING in Azure portal for Function App <br/>
- Go to Azure Portal → Application Insights and copy the Instrumentation Key / Connection String. <br/>
- Go to Azure Portal → Function App -> Settings -> Environment Variables and set it there <br/>
+  Add Playwright browser binaries for Chromium Linux within node_modules playwright_core folder
+  
+</li>
 
- ``
-APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
-``
+<li>
+ Deploy the function app
 
+``func azure functionapp publish <function-app-name>``
 </li>
 </ol>
 
