@@ -76,7 +76,6 @@ Clone the repository
  Set App settings for Function App in Azure portal <br/>  
  
  ``
-APPLICATIONINSIGHTS_CONNECTION_STRING=your_connection_string_here
 PLAYWRIGHT_BROWSERS_PATH=0 
 ``
 
