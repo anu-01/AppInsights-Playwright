@@ -67,7 +67,7 @@ Clone the repository
 ``az login``
 </li>
 <li>
- Create an Azure Function App Premium EP1 Plan
+ Create an Azure Function App Premium EP1 Plan from Azure portal
 
 </li>
 
