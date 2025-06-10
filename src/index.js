@@ -26,9 +26,14 @@ async function runPlaywrightTests(context) {
 
     try {
         context.log(`[${timestamp}] Running Playwright login test...`);
+        // context.log("browser.browserType:", playwright.chromium.name());
+        context.log("Executable Path for PW:", playwright.chromium.executablePath());
+
 
         // Launch Browser
-        const browser = await playwright.chromium.launch({ headless: true });
+        const browser = await playwright.chromium.launch({             
+            // executablePath: path.resolve('./node_modules/playwright-core/.local-browsers/chromium-1169/chrome-win/chrome.exe'), // Adjust path as needed
+                headless: true });
         const page = await browser.newPage();
 
         // Navigate to login page
@@ -55,7 +60,7 @@ async function runPlaywrightTests(context) {
         context.log("✅ Playwright login test successful.");
         await browser.close();
     } catch (error) {
-        context.log.error("❌ Playwright login test failed:", error);
+        context.log("❌ Playwright login test failed:", error);
 
         // Log Failure to Application Insights
         client.trackAvailability({

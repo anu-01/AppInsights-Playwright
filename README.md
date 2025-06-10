@@ -67,9 +67,8 @@ Clone the repository
 ``az login``
 </li>
 <li>
- Create an Azure Function App
+ Create an Azure Function App Premium EP1 Plan
 
-``az functionapp create --resource-group <resource-group-name> --consumption-plan-location <location> --runtime node --name <function-app-name> --storage-account <storage-account-name>``
 </li>
 <li>
  Deploy the function
