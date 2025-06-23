@@ -69,6 +69,9 @@ Ensure you have the following installed:
      ```bash
      azurite
      ```
+     If Azurite is not recognized install it using this command:
+      `` npm install -g azurite ``
+      
    - Start the function app in a separate terminal:
      ```bash
      func start
