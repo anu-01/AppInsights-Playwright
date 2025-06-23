@@ -125,4 +125,8 @@ Ensure you have the following installed:
 - **Synthetic Monitoring**: Provides real-time monitoring of website availability  
 - **Early Detection**: Detects authentication issues before they impact users  
 - **Scalable**: Runs in Azure Functions, eliminating the need for a dedicated server  
-- **Integrated with Application Insights**: Allows tracking of availability trends over time  
+- **Integrated with Application Insights**: Allows tracking of availability trends over time
+
+## Learn More
+
+To learn more about writing Playwright tests, visit the [Playwright Documentation](https://playwright.dev/docs/writing-tests).
